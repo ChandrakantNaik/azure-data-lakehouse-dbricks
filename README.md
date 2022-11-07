@@ -42,7 +42,7 @@
   - Import the data (.csv files) into Azure Databricks using Delta Lake to create a Bronze data store
     - Select **Upload data** to access the **data upload UI** and load CSV files into Delta Lake tables. Refer to screenshot below
   ![DBFS data upload | extract-step ](images/dbfs-data-upload.GIF)
-  - Upload .csv files into DBFS and load the data into delta file locations. Refer to [extract-step.ipynb](C:\Users\cnaik1\code-udacity\azure-data-lakehouse-dbricks\extract-step.ipynb). 
+  - Upload .csv files into DBFS and load the data into delta file locations. Refer to [extract-step.ipynb](azure-data-lakehouse-dbricks\extract-step.ipynb). 
     - Verify if extract step is successfull by navigating to Data > DBFS > delta > payments | riders | stations | trips. Each of these folders should contain delta files. Screenshot for reference below
   ![extract-step](images/extract-step.GIF)
   - Create a staging scheme with staging tables and insert data into these staging tables using delta file location. Refer to [load-step.ipynb](C:\Users\cnaik1\code-udacity\azure-data-lakehouse-dbricks\load-step.ipynb)
